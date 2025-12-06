@@ -129,4 +129,48 @@ No frameworks. No build tools.
 ---
 
 ## 📂 File Structure / फ़ाइल संरचना
+Bharat360.html
+│
+├─ HTML → Page Layout
+├─ <style> → CSS Animations (Kathputli, Fade-ins)
+└─ <script> → Game Logic, Quiz, UI Actions
 
+Everything exists inside **one file** for portability.
+
+---
+
+## 🎨 Design Philosophy / डिज़ाइन सोच
+
+- **Color Palette:** Tricolor + Ashoka Chakra Blue  
+- **Typography:**
+  - Playfair Display → Royal heritage feel
+  - Inter → Modern readability
+- **Accessibility:**
+  - Semantic HTML
+  - High contrast
+  - Keyboard friendly
+
+> Tradition + Modern UI in harmony.
+
+---
+
+## 🤝 Contribution / योगदान
+
+This is a **concept project**.
+
+✔ Fork it  
+✔ Improve it  
+✔ Add more states, culture, games, achievements
+
+PRs are welcome 🙌
+
+---
+
+## ❤️ Dedication / समर्पण
+
+This project is **Dedicated to Rising India**.  
+A civilization rooted in tradition yet leading the future.
+
+> **Jai Hind. Bharat Mata Ki Jai 🇮🇳🚀**
+
+---
