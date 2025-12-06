@@ -1,0 +1,52 @@
+body { font-family: 'Inter', sans-serif; }
+h1, h2, h3 { font-family: 'Inter', sans-serif; }
+.serif-font { font-family: 'Playfair Display', serif; }
+
+/* Custom Animations */
+@keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
+
+.tab-active {
+    background-color: #eff6ff; /* blue-50 */
+    border-left-color: #2563eb; /* blue-600 */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.tab-active .icon-box { background-color: #2563eb; color: white; }
+.tab-active .text-box { color: #1e3a8a; } /* blue-900 */
+
+/* Image Hover Effect */
+.hover-zoom-img { transition: transform 0.5s ease; }
+.group:hover .hover-zoom-img { transform: scale(1.1); }
+
+/* Hide scrollbar for clean look */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* KATHPUTLI ANIMATION STYLES */
+@keyframes puppetSwing {
+    0%, 100% { transform: rotate(-5deg) translateY(0); }
+    50% { transform: rotate(5deg) translateY(-5px); }
+}
+@keyframes puppetHandLeft {
+    0%, 100% { transform: rotate(-10deg); }
+    50% { transform: rotate(20deg); }
+}
+@keyframes puppetHandRight {
+    0%, 100% { transform: rotate(10deg); }
+    50% { transform: rotate(-20deg); }
+}
+
+.puppet-container {
+    animation: puppetSwing 3s infinite ease-in-out;
+    transform-origin: top center;
+}
+.puppet-hand-l { animation: puppetHandLeft 1.5s infinite ease-in-out; transform-origin: 20px 60px; }
+.puppet-hand-r { animation: puppetHandRight 1.5s infinite ease-in-out; transform-origin: 80px 60px; }
+
+.stage-curtain {
+    background: linear-gradient(to bottom, #7f1d1d 0%, #b91c1c 20%, #991b1b 100%);
+    border-bottom: 4px solid #fbbf24;
+}
